@@ -168,13 +168,6 @@
   }
 }
 
-.inverted-border-radius {
-  background: white;
-}
-.inverted-border-radius-dark {
-  background: var(--background);
-}
-
 .inverted-border-radius::before {
   content: "";
   position: absolute;
@@ -231,7 +224,7 @@
   animation-direction: reverse;
 }
 
-inverted-image-left {
+.inverted-image-left {
   background: #fff;
   height: 100px;
   width: 80px;
