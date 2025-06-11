@@ -19,11 +19,10 @@ export default function Introduction() {
           </li>
         </ul>
         <p className="leading-[1.8] text-neutral-800 dark:text-neutral-300 md:leading-loose">
-          Passionate and seasoned Software Engineer with a strong focus on
-          frontend development. Proficient in TypeScript and well-versed in all
-          aspects of web technologies. Collaborative team player dedicated to
-          delivering efficient, scalable, and visually appealing web
-          applications.
+          Experienced Software Engineer specializing in frontend development,
+          with deep expertise in TypeScript and modern web technologies.
+          Committed to building responsive, maintainable, and user-focused web
+          solutions through teamwork and innovation.
         </p>
       </div>
     </section>

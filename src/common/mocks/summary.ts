@@ -1,10 +1,13 @@
 export const summaryMock = {
   paragraphOne:
-    "Hi! I am Mika Mada Aprilugari, a seasoned software engineer with a deep passion for creating elegant and efficient solutions through code. With a strong foundation in JavaScript and TypeScript, along with a comprehensive understanding of various frontend libraries and frameworks, I heve been navigating the ever-evolving landscape of web development with enthusiasm and dedication. Currently, reside in Jakarta, Indonesia 🇮🇩.",
+    "Hello! I’m Mika Mada Aprilugari — a passionate software engineer with a strong focus on building clean, efficient, and impactful digital solutions. With solid experience in JavaScript and TypeScript, and familiarity with a wide range of frontend frameworks and tools, I’ve been actively exploring the evolving world of web development. Currently based in Jakarta, Indonesia 🇮🇩.",
+
   paragraphTwo:
-    "As a fast learner and adaptive thinker, I thrive in dynamic environments where innovation is the driving force. My collaborative nature allows me to seamlessly integrate with teams, contributing not only my technical prowess but also a humble attitude that values every members input.",
+    "I thrive in fast-paced environments where learning never stops and creativity drives progress. My ability to adapt quickly and work well with others allows me to contribute effectively in team settings — not just with technical skills, but also with a collaborative and open-minded attitude.",
+
   paragraphThree:
-    "This blog is my platform to share insights, experiences, and discoveries from my journey as a software engineer. Join me as we delve into the ever-exciting realm of technology, where each line of code has the potential to shape the digital landscape in remarkable ways.",
+    "This blog serves as a space for me to document and share the knowledge, insights, and experiences I gain along the way as a software engineer. From hands-on challenges to exciting breakthroughs, I’m here to explore the ever-changing tech landscape, one post at a time.",
+
   paragraphFour:
-    "Thank you for visiting, and I look forward to embarking on this knowledge-sharing adventure",
+    "Thank you for stopping by! I’m excited to share, learn, and grow together through this journey in tech.",
 };
