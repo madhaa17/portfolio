@@ -68,20 +68,26 @@ export default function ProfileHeader({
         <Link
           href={"https://github.com/madhaa17"}
           target="_blank"
-          className="font-sora hidden text-sm text-neutral-600 transition-all duration-300 hover:text-neutral-700 dark:text-neutral-500 dark:hover:text-neutral-400 lg:flex">
+          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
           Github
         </Link>
         <Link
           href={"https://www.linkedin.com/in/mikamada17/"}
           target="_blank"
-          className="font-sora hidden text-sm text-neutral-600 transition-all duration-300 hover:text-neutral-700 dark:text-neutral-500 dark:hover:text-neutral-400 lg:flex">
+          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
           LinkedIn
+        </Link>
+        <Link
+          href={"https://wa.me/6281380973918"}
+          target="_blank"
+          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
+          WhatsApp
         </Link>
       </div>
       <Link
         href={"mailto:mikamada17@gmail"}
         target="_blank"
-        className="font-sora hidden text-sm text-neutral-600 transition-all duration-300 hover:text-neutral-700 dark:text-neutral-500 dark:hover:text-neutral-400 lg:flex">
+        className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
         mikamada17@gmail.com
       </Link>
     </div>
