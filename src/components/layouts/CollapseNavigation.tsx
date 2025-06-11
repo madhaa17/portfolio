@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Profile from "./sidebar/Profile";
 import ToggleThemeIcon from "../elements/ToggleThemeIcon";
 import MenuItem from "./sidebar/MenuItem";
-import Link from "next/link";
+// import Link from "next/link";
 
 export default function CollapseNavigation() {
   const [isHover, setIsHover] = useState(false);
