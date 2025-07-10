@@ -6,6 +6,7 @@ import ToggleThemeIcon from "@/components/elements/ToggleThemeIcon";
 import Image from "next/image";
 import Status from "@/components/elements/Status";
 import { MdVerified as VerifiedIcon } from "react-icons/md";
+import { SocialLink } from "@/components/Introduction";
 
 interface ProfileHeaderProps {
   expandMenu: boolean;
@@ -64,32 +65,7 @@ export default function ProfileHeader({
         </Link>
         <VerifiedIcon size={18} className="text-blue-400" />
       </div>
-      <div className="flex items-center gap-2 text-sm">
-        <Link
-          href={"https://github.com/madhaa17"}
-          target="_blank"
-          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
-          Github
-        </Link>
-        <Link
-          href={"https://www.linkedin.com/in/mikamada17/"}
-          target="_blank"
-          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
-          LinkedIn
-        </Link>
-        <Link
-          href={"https://wa.me/6281380973918"}
-          target="_blank"
-          className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
-          WhatsApp
-        </Link>
-      </div>
-      <Link
-        href={"mailto:mikamada17@gmail"}
-        target="_blank"
-        className="font-sora text-sm text-neutral-600 transition-all duration-500 hover:text-neutral-700 dark:text-neutral-400 dark:hover:text-neutral-300 lg:flex">
-        mikamada17@gmail.com
-      </Link>
+      <SocialLink name={"@madhaa17"} href={"https://github.com/madhaa17"} />
     </div>
   );
 }
