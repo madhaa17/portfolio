@@ -5,6 +5,7 @@ import ThemeProviderContext from "@/stores/theme";
 import Layouts from "@/components/layouts";
 import { Suspense } from "react";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body className={geistSans.className}>
+        <Analytics />
         <NextTopLoader
           color="#05b6d3"
           initialPosition={0.08}
