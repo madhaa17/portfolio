@@ -2,6 +2,18 @@ import { ProjectCardProps } from "../types/project";
 
 export const sampleProjects: ProjectCardProps[] = [
   {
+    thumbnail: "/images/ig-bot.png",
+    githubUrl: "https://github.com/madhaa17/bot-unfollow-ig",
+    title: "InstaBot - Automation Unfollow nonmutuals instagram",
+    description:
+      "Automation tool to unfollow non‑mutual accounts. Complies with Instagram policies: fetching followers/followings is rate‑limited (max ~1,000 accounts), so operations are executed in batches.",
+    technologies: [
+      { name: "Node.js" },
+      { name: "Puppeteer" },
+      { name: "Electron.js" },
+    ],
+  },
+  {
     thumbnail: "/images/chat-ai.png",
     githubUrl: "https://github.com/madhaa17/chatbot-ai",
     title: "Chatbot Assistant - With Google Gemini API",
