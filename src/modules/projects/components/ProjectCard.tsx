@@ -8,6 +8,7 @@ import { Card } from "@/components/elements/Card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import { slugify } from "@/common/helpers/slug";
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   thumbnail,
@@ -16,10 +17,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   technologies,
-  classname
+  classname,
 }) => {
   return (
-    <Card className={`group relative bg-card overflow-hidden border border-border hover:border-border transition-all duration-500 hover:shadow-xl hover:shadow-card/50 hover:-translate-y-1 ${classname}`}>
+    <Card
+      className={`group relative bg-card overflow-hidden border border-border hover:border-border transition-all duration-500 hover:shadow-xl hover:shadow-card/50 hover:-translate-y-1 ${classname}`}>
       <div className="relative overflow-hidden bg-gradient-to-br from-muted to-secondary aspect-video">
         <Image
           width={400}
@@ -58,7 +60,11 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="p-6 space-y-4">
         <div className="flex items-start justify-between gap-3">
           <h3 className="text-lg font-semibold text-card-foreground leading-tight">
-            {title}
+            <Link
+              href={`/projects/${slugify(title)}`}
+              className="hover:underline">
+              {title}
+            </Link>
           </h3>
           <ArrowUpRight
             size={18}
